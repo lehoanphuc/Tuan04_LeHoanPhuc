@@ -20,7 +20,7 @@ namespace Tuan04_LeHoanPhuc.Controllers
             }
             return lstGiohang;
         }
-        // GET: Giohang
+        // GET: Giohanghghgdfgfg
         public ActionResult ThemGioHang(int id, string strURL)
         {
             List<Giohang> lstGiohang = Laygiohang();
