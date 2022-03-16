@@ -102,7 +102,7 @@ namespace Tuan04_LeHoanPhuc.Controllers
                 sanpham.iSoluong = int.Parse(collection["txtSolg"].ToString());
             }
             
-            //return RedirectToAction("Giohang");
+            return RedirectToAction("Giohang");
         }
         public ActionResult XoaTatCaGioHang()
         {
